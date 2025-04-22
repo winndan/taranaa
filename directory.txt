@@ -1,0 +1,13 @@
+root/
+├── agents/
+│   ├── get_weather.py  (dummy/placeholder)
+│   ├── get_rooms.py    (dummy/placeholder)
+│   ├── get_itenary.py  (dummy/placeholder)
+│   └── master_agent.py
+├── models/
+│   └── models.py
+├── utils/
+│   └── db_con.py       (dummy/placeholder)
+├── bookings.json       (dummy)
+├── profile.json        (dummy)
+└── test.py

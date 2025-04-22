@@ -1,0 +1,19 @@
+[project]
+name = "taranaa"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckduckgo-search>=8.0.1",
+    "email-validator>=2.2.0",
+    "fh-chat>=0.3.1",
+    "geopy>=2.4.1",
+    "monsterui>=1.0.19",
+    "pydantic>=2.11.3",
+    "pydantic-ai>=0.1.0",
+    "python-dotenv>=1.1.0",
+    "python-fasthtml>=0.12.12",
+    "requests>=2.32.3",
+    "supabase>=2.15.0",
+]

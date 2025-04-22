@@ -1,0 +1,156 @@
+[
+    {
+        "parts": [
+            {
+                "content": "You are an AI assistant for a travel agency providing information about available tours and general travel inquiries. Use the available tools to retrieve real data instead of generating responses. If a user asks about tour availability, fetch the data from the database.",
+                "timestamp": "2025-03-27T07:06:17.994968Z",
+                "dynamic_ref": null,
+                "part_kind": "system-prompt"
+            },
+            {
+                "content": "I want a trip for summer",
+                "timestamp": "2025-03-27T07:06:17.994972Z",
+                "part_kind": "user-prompt"
+            }
+        ],
+        "kind": "request"
+    },
+    {
+        "parts": [
+            {
+                "tool_name": "final_result",
+                "args": {
+                    "answer": "OK. I am ready to help you with your trip for the summer. Where would you like to go?"
+                },
+                "tool_call_id": "pyd_ai_8ba74121d4ef49a3827917957214874c",
+                "part_kind": "tool-call"
+            }
+        ],
+        "model_name": "gemini-2.0-flash",
+        "timestamp": "2025-03-27T07:06:19.905481Z",
+        "kind": "response"
+    },
+    {
+        "parts": [
+            {
+                "tool_name": "final_result",
+                "content": "Final result processed.",
+                "tool_call_id": "pyd_ai_8ba74121d4ef49a3827917957214874c",
+                "timestamp": "2025-03-27T07:06:19.905896Z",
+                "part_kind": "tool-return"
+            }
+        ],
+        "kind": "request"
+    },
+    {
+        "parts": [
+            {
+                "content": "Can you suggest something cheaper?",
+                "timestamp": "2025-03-27T07:06:19.906491Z",
+                "part_kind": "user-prompt"
+            }
+        ],
+        "kind": "request"
+    },
+    {
+        "parts": [
+            {
+                "tool_name": "final_result",
+                "args": {
+                    "answer": "Can you provide me with your desired destination and maximum budget, so I can find tours that match your preferences?"
+                },
+                "tool_call_id": "pyd_ai_76e83d7b3d2d4674808e3cc9068a496e",
+                "part_kind": "tool-call"
+            }
+        ],
+        "model_name": "gemini-2.0-flash",
+        "timestamp": "2025-03-27T07:06:20.920364Z",
+        "kind": "response"
+    },
+    {
+        "parts": [
+            {
+                "tool_name": "final_result",
+                "content": "Final result processed.",
+                "tool_call_id": "pyd_ai_76e83d7b3d2d4674808e3cc9068a496e",
+                "timestamp": "2025-03-27T07:06:20.920530Z",
+                "part_kind": "tool-return"
+            }
+        ],
+        "kind": "request"
+    },
+    {
+        "parts": [
+            {
+                "content": "I want a trip for summer",
+                "timestamp": "2025-03-27T07:07:10.747254Z",
+                "part_kind": "user-prompt"
+            }
+        ],
+        "kind": "request"
+    },
+    {
+        "parts": [
+            {
+                "tool_name": "final_result",
+                "args": {
+                    "answer": "Okay, I can help with that! To find the perfect summer trip, could you please tell me where you'd like to go and what your budget is?"
+                },
+                "tool_call_id": "pyd_ai_924ab85dabb94cc78d8892282acb309b",
+                "part_kind": "tool-call"
+            }
+        ],
+        "model_name": "gemini-2.0-flash",
+        "timestamp": "2025-03-27T07:07:13.071211Z",
+        "kind": "response"
+    },
+    {
+        "parts": [
+            {
+                "tool_name": "final_result",
+                "content": "Final result processed.",
+                "tool_call_id": "pyd_ai_924ab85dabb94cc78d8892282acb309b",
+                "timestamp": "2025-03-27T07:07:13.071331Z",
+                "part_kind": "tool-return"
+            }
+        ],
+        "kind": "request"
+    },
+    {
+        "parts": [
+            {
+                "content": "Can you suggest something cheaper?",
+                "timestamp": "2025-03-27T07:07:13.071956Z",
+                "part_kind": "user-prompt"
+            }
+        ],
+        "kind": "request"
+    },
+    {
+        "parts": [
+            {
+                "tool_name": "final_result",
+                "args": {
+                    "answer": "I can definitely look for some cheaper options for your summer trip. First, I need to know your destination and budget. Once I have that, I can check available tours and suggest something that fits your needs!"
+                },
+                "tool_call_id": "pyd_ai_0aa1622061df46329428fb7ca028849e",
+                "part_kind": "tool-call"
+            }
+        ],
+        "model_name": "gemini-2.0-flash",
+        "timestamp": "2025-03-27T07:07:14.168970Z",
+        "kind": "response"
+    },
+    {
+        "parts": [
+            {
+                "tool_name": "final_result",
+                "content": "Final result processed.",
+                "tool_call_id": "pyd_ai_0aa1622061df46329428fb7ca028849e",
+                "timestamp": "2025-03-27T07:07:14.169142Z",
+                "part_kind": "tool-return"
+            }
+        ],
+        "kind": "request"
+    }
+]
